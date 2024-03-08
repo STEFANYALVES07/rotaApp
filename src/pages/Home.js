@@ -1,17 +1,15 @@
 import { View } from "react-native";
 import { styles } from "../styles/StyleSheet";
 import ImageComponent from "../components/ImageComponent";
-import ButtonComponent from "../components/ButtonComponent";
-import ButtonComponent2 from "../components/Buttoncomponent2";
+import { useNavigation } from "@react-navigation/native";
 
 
 
 
 export default function Home() {
+  const navigation = useNavigation ();
     return(
       <View style={styles.container}>  
-      <ButtonComponent />
-      <ButtonComponent2 />
         <ImageComponent />
       </View>
     );
