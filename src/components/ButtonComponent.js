@@ -4,7 +4,7 @@ import { Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { View } from "react-native";
 
-//exporta e organiza os componentes para o funcionamento do site
+//exporta e organiza os componentes para o melhor funcionamento do site
 
 export default function ButtonComponent() {
     const navigation = useNavigation ();
