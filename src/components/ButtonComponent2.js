@@ -1,6 +1,10 @@
+//importa os itens necessáriosdo React
+
 import { Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { View } from "react-native";
+
+//exporta e organiza os componentes para o funcionamento do site
 
 export default function ButtonComponent2() {
     const navigation = useNavigation ();

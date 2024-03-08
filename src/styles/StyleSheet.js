@@ -1,4 +1,8 @@
+//Importa o modelo de style do React
+
 import { StyleSheet } from "react-native";
+
+//Exporta o Style para ser utilizado em todas as páginas
 
 export const styles = StyleSheet.create({
     container: {
@@ -14,6 +18,12 @@ export const styles = StyleSheet.create({
         alignItems:'center' ,
         justifyContent:'center' ,
         resizeMode: 'cover',
+    },
+
+    textohome:{
+      fontSize: 55, 
+      color: 'black', 
+      textAlign: 'center', 
     },
 
     loginImageBackground: {
@@ -59,11 +69,12 @@ export const styles = StyleSheet.create({
     InputName: {
     
       borderWidth: 2,
-      borderColor: 'grey',
-      borderRadius: 5,
-      margin: 15,
+      borderColor: 'black',
+      borderRadius: 10,
+      margin: 20,
       justifyContent: 'center',
-      backgroundColor: 'white',
+      backgroundColor: 'lighblue',
+      opacity:'50%',
       width: '90%',
       height: '20%',
     

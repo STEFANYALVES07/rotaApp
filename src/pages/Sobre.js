@@ -1,7 +1,11 @@
-import { View, Text } from "react-native";
+//importa os itens necessáriosdo React
+
+import { View, } from "react-native";
 import { styles }  from '../styles/StyleSheet';
 import { Image } from "react-native";
 import ButtonComponent2 from "../components/ButtonComponent2";
+
+//exporta e organiza os componentes para o funcionamento do site
 
 export default function Sobre() {
     return(

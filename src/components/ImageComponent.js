@@ -1,13 +1,17 @@
+//importa os itens necessáriosdo React
+
 import { ImageBackground, Text } from "react-native";
 import { styles } from "../styles/StyleSheet"; 
 import ButtonComponent from "./ButtonComponent";
 const image = {uri: 'src/assets/fundoo.png'};
 
+//exporta e organiza os componentes para o funcionamento do site
+
 export default function ImageComponent () {
     return(
         
         <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-           <Text style={{ fontSize: 55, color: 'black', textAlign: 'center', backgroundColor:'lightblue' }}>Página home</Text>
+        <text style= {styles.textohome}>Página Home</text>
              <ButtonComponent />
              </ImageBackground>
     )

@@ -1,4 +1,8 @@
+//importa os itens necessáriosdo React
+
 import { View, Text } from 'react-native';
+
+//exporta e organiza os componentes para o funcionamento do site
 
 export default function LoginText() {
     return (
